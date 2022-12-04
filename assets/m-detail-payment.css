@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+}
+h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+}
+.container-item {
+  margin-top: 16px;
+  height: 17vh;
+}
+#nominal-bt {
+  font-size: 15px;
+  width: 100%;
+  padding: 19px 24px;
+  font-family: "Lato";
+  color: #cac0c2;
+  outline: none;
+  background: #f6f2f2;
+  border-radius: 16px;
+  border: transparent;
+}
+#nominal-bt:focus {
+  border: solid;
+  background-color: transparent;
+  border-color: #04d99d;
+}
+.pay-logo {
+  width: 100%;
+  height: auto;
+}
+.outlined-button {
+  padding: 20px 10px;
+  border-radius: 16px;
+  border: solid 3px #04d99d;
+  background-color: transparent;
+}
+.outlined-bigbutton {
+  padding: 20px 10px;
+  border-radius: 24px;
+  border: solid 3px #04d99d;
+  background-color: transparent;
+}
+.txbutton1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  text-decoration-line: underline;
+  color: #05aff2;
+}
+p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #250e1f;
+}
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+.checkout {
+  padding: 22px;
+  width: 100%;
+  background: #04d99d;
+  border-radius: 16px;
+  border: transparent;
+}
+
+h1.title1 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  color: #4f494b;
+}
+h2.navbar {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #4f494b;
+}
+.photo-profile {
+  width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+button.navbar-button {
+  height: min-content;
+  padding: 0 16px;
+  margin: 0;
+  background: #04d99d;
+  border-radius: 8px;
+  border: none;
+}
+.footer {
+  margin-top: 106px;
+  width: 100%;
+  background-color: #ede6e6;
+  padding: 4% 8%;
+  display: flex;
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  color: #4f494b;
+}
+.hamburger-icon {
+  position: absolute;
+  width: 44px;
+  left: 4vw;
+}
+.outlined-bigbutton-cs {
+  padding: 20px 10px;
+  border-radius: 24px;
+  border: solid 3px #04d99d;
+  background-color: transparent;
+}
+@media (min-width: 1201px) {
+  .outlined-bigbutton {
+    width: 100%;
+  }
+  .outlined-bigbutton-cs {
+    width: 60%;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar-button {
+    right: 42px;
+    position: absolute;
+  }
+  .navbar-button h2 {
+    font-size: 12px;
+  }
+  .container-item {
+    margin-top: 16px;
+    height: min-content;
+  }
+  #nominal-bt {
+    width: 60%;
+  }
+  .outlined-button h2 {
+    font-size: 17px;
+  }
+  .outlined-bigbutton {
+    width: max-content;
+  }
+  .outlined-bigbutton-cs {
+    width: max-content;
+  }
+  .outlined-bigbutton h2 {
+    font-size: 17px;
+  }
+  .outlined-bigbutton-cs h2 {
+    font-size: 17px;
+  }
+  .vc-icon {
+    scale: 2;
+  }
+  .checkout h2 {
+    font-size: 17px;
+    font-weight: 300;
+  }
+  .header {
+    background-color: #ede6e6;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 11px;
+  }
+  h2 {
+    font-size: 17px;
+  }
+  h1.title1 {
+    font-size: 22px;
+  }
+  .hamburger-icon {
+    position: absolute;
+    width: 24px;
+    left: 16px;
+  }
+  button.navbar-button {
+    right: 16px;
+    position: absolute;
+  }
+  .pay-logo {
+    scale: 2;
+  }
+  .footer a {
+    font-size: 10px;
+  }
+}
